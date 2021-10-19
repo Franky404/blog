@@ -142,7 +142,7 @@
                                             <div class="close-data text-right badge badge-primary cursor-pointer"><i class="ri-close-fill"></i></div>
                                             </div>
                                             <div class="data-scrollbar" data-scroll="2">
-                                                <div class="card-body">
+                                               <div class="card-body">
                                                     <div class="profile-header">
                                                         <div class="cover-container text-center">
                                                             <img src="https://storage.frangky.me/favicon.png" alt="profile-bg" class="rounded img-fluid avatar-80">
@@ -288,7 +288,7 @@
     </footer>
 <script>
 function cb(response) {
-    document.getElementById('visitky').innerText = '${response.value} Pengunjung`;
+    document.getElementById('visitky').innerText = response.value;
 }
 </script>
     <script async src="https://api.countapi.xyz/hit/frangky.me/visits?callback=cb"></script>
