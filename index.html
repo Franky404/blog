@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Home</title>
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="https://storage.frangky.me/favicon.png" type="image/x-icon">
+      <link rel="icon" href="https://storage.frangky.me/favicon.png" type="image/x-icon">
+      <link rel="stylesheet" href="https://storage.frangky.me/public/css/backend.min.css">
+      <link rel="stylesheet" href="https://storage.frangky.me/public/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+      <link rel="stylesheet" href="https://storage.frangky.me/public/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css">
+      <link rel="stylesheet" href="https://storage.frangky.me/public/vendor/remixicon/fonts/remixicon.css">
+      <link rel="stylesheet" href="https://storage.frangky.me/public/vendor/@icon/dripicons/dripicons.css">
+      <link rel="stylesheet" href="https://storage.frangky.me/public/vendor/fullcalendar/core/main.css" />
+      <link rel="stylesheet" href="https://storage.frangky.me/public/vendor/fullcalendar/daygrid/main.css" />
+      <link rel="stylesheet" href="https://storage.frangky.me/public/vendor/fullcalendar/timegrid/main.css" />
+      <link rel="stylesheet" href="https://storage.frangky.me/public/vendor/fullcalendar/list/main.css" />
+      <link rel="stylesheet" href="https://storage.frangky.me/public/vendor/mapbox/mapbox-gl.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+  <body class=" color-light ">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Dashboard-->
+<!-- Atas Page-->
+    <div class="wrapper">
+      <div class="iq-sidebar  sidebar-default ">
+          <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
+              <a href="" class="header-logo">
+                  <img src="https://storage.frangky.me/logo.jpg" class="img-fluid rounded-normal" alt="logo">
+                  <h3 class="header-text" style="margin-top:5px;margin-left:10px;">Franky404</h3>
+              </a>
+              <div class="iq-menu-bt-sidebar">
+                  <i class="las la-bars wrapper-menu"></i>
+              </div>
+          </div>
+          <div class="data-scrollbar" data-scroll="1">
+              <nav class="iq-sidebar-menu">
+                  <ul id="iq-sidebar-toggle" class="iq-menu">
+                       <li class="">
+                          <a class="">
+                              <i class="las la-home iq-arrow-left text-danger"></i><span>Dashboard</span>
+                          </a>   
+                       </li>
+                       <li class="">
+                          <a href="download" class="">
+                              <i class="fa fa-download"></i><span>Downloader Api</span>
+                          </a>
+                       </li>
+                       <li class="">
+                          <a href="search" class="">
+                              <i class="fa fa-search"></i><span>Search Api</span>
+                          </a>
+                       </li>
+            <!-- End -->          
+             </ul>
+                       </li>
+                  </ul>
+              </nav>
+              <div class="p-3"></div>
+          </div>
+          </div>       
+          <div class="iq-top-navbar">
+            <div class="iq-navbar-custom">
+                <nav class="navbar navbar-expand-lg navbar-light p-0">
+                    <div class="iq-navbar-logo d-flex align-items-center justify-content-between">
+                        <i class="ri-menu-line wrapper-menu"></i>
+                        <a href="" class="header-logo">
+                            <img src="https://storage.frangky.me/favicon.png" class="img-fluid rounded-normal" alt="logo">
+                        </a>
+                    </div>
+                    <div class="iq-search-bar device-search">
+                    </div>
+                    <div class="d-flex align-items-center" style="float: right;">
+                        <div class="change-mode">
+                            <div class="custom-control custom-switch custom-switch-icon custom-control-inline">
+                                <div class="custom-switch-inner">
+                                    <p class="mb-0"> </p>
+                                    <input type="checkbox" class="custom-control-input" id="dark-mode" data-active="true">
+                                    <label class="custom-control-label" for="dark-mode" data-mode="toggle">
+                                        <span class="switch-icon-left"><i class="a-left"></i></span>
+                                        <span class="switch-icon-right"><i class="a-right"></i></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Notifikasi-->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-label="Toggle navigation">
+                            <i class="ri-menu-3-line"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto navbar-list align-items-center">
+                                <li class="nav-item nav-icon dropdown"> 
+                                    <a href="index.html#" class="search-toggle dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                        <i class="ri-notification-line"></i>
+                                        <span class="bg-primary dots"></span>
+                                    </a>
+                                    <div class="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <div class="card shadow-none m-0">
+                                            <div class="card-body p-0 ">
+                                                <div class="cust-title p-3">
+                                                    <h5 class="mb-0">All Notifications</h5>
+                                                </div>
+                                                <div class="p-3">
+                                                    <a href="index.html#" class="iq-sub-card" >
+                                                        <div class="media align-items-center">
+                                                            <div class="">
+                                                            </div>
+                                                            <div class="media-body ml-3">
+                                                                <h6 class="mb-0">Update Template Website! <small class="badge badge-success float-right">New</small></h6>
+                                                                <p class="mb-0">1 Minute Ago</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <a class="right-ic btn btn-primary btn-block position-relative p-2" href="index.html#" role="button">
+                                                    <div class="dd-icon"><i class="las la-arrow-right mr-0"></i></div>
+                                                    View All
+                                                </a>                                   
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item iq-full-screen">
+                                    <a href="index.html#" class="" id="btnFullscreen">
+                                        <i class="ri-fullscreen-line"></i>
+                                    </a>
+                                </li>              
+                                <!-- Profile Card-->
+                                <li class="caption-content">
+                                    <a href="javascript:void(0);" class="iq-user-toggle">
+                                        <img src="https://storage.frangky.me/favicon.png" class="img-fluid rounded" alt="demo">
+                                    </a>
+                                    <div class="iq-user-dropdown">
+                                        <div class="card">
+                                            <div class="card-header d-flex justify-content-between align-items-center mb-0">
+                                                <div class="header-title">
+                                                    <h4 class="card-title mb-0">Profile</h4>
+                                                </div>
+                                            <div class="close-data text-right badge badge-primary cursor-pointer"><i class="ri-close-fill"></i></div>
+                                            </div>
+                                            <div class="data-scrollbar" data-scroll="2">
+                                                <div class="card-body">
+                                                    <div class="profile-header">
+                                                        <div class="cover-container text-center">
+                                                            <img src="https://storage.frangky.me/favicon.png" alt="profile-bg" class="rounded img-fluid avatar-80">
+                                                            <div class="profile-detail mt-3">
+                                                                <span class="mt-2 badge badge-warning">Guest</span>
+                                                            </div>
+                                                            <hr/>
+                                                            <a href="users/login" class="mt-2 badge badge-primary" target="_blank">Login</a>
+                                                            <a href="users/register" class="mt-2 badge badge-warning" target="_blank">Register</a>                         
+                                                        </div>
+                                                    </div>
+                                                    <div class="p-3"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>                     
+                      </div> 
+                    </div>
+                </nav>
+            </div>
+        </div>     
+<!--Akhir page-->
+      <!-- Card -->
+      <div class="content-page">
+        <div class="container-fluid">
+            <div class="row">    
+<div class="col-lg-3 col-md-6">
+	<div class="bottom-left shadow-showcase card card-block card-stretch card-height position-relative overflow-hidden card-overlay-image">
+		<div class="card-body">
+			<div class="d-flex align-items-center justify-content-between">
+				<div class="iq-cart-image">
+					<lord-icon src="https://cdn.lordicon.com/kbtmbyzy.json"trigger="loop"colors="primary:#e83a30,secondary:#30c9e8"style="width:80px;height:80px"></lord-icon>
+				</div>
+				<div class="iq-cart-text">
+					<h2>Waktu</h2>
+					<p id="times" class="mb-0">00:00:00</p>
+				</div>
+			</div>
+		</div>
+		<div class="overlay-image svg-danger">
+		     <svg height="100%" viewBox="0 0 264 113" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M108.5 68C82.4829 96.2795 31.0226 108.712 4.54413 112H259C262.2 112 263.333 108.667 263.5 107V6C263.5 1.6 259.167 0.166667 257 0H192.5C172.1 3.2 128 46.6667 108.5 68Z" /></svg>
+		</div>
+	</div>
+</div>
+<div class="col-lg-3 col-md-6">
+	<div class="bottom-left shadow-showcase card card-block card-stretch card-height position-relative overflow-hidden card-overlay-image">
+		<div class="card-body">
+			<div class="d-flex align-items-center justify-content-between">
+				<div class="iq-cart-image">
+					<lord-icon src="https://cdn.lordicon.com/wrprwmwt.json" trigger="loop"colors="primary:#e83a30,secondary:#30c9e8" style="width:80px;height:80px"></lord-icon>
+				</div>
+				<div class="iq-cart-text">
+					<h2>IP Kamu</h2>
+					<p id="aipi" class="mb-0">127.0.0.1</p>
+				</div>
+			</div>
+		</div>
+		<div class="overlay-image svg-danger">
+		     <svg height="100%" viewBox="0 0 264 113" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M108.5 68C82.4829 96.2795 31.0226 108.712 4.54413 112H259C262.2 112 263.333 108.667 263.5 107V6C263.5 1.6 259.167 0.166667 257 0H192.5C172.1 3.2 128 46.6667 108.5 68Z" /></svg>
+		</div>
+	</div>
+</div>
+<div class="col-lg-3 col-md-6">
+	<div class="bottom-left shadow-showcase card card-block card-stretch card-height position-relative overflow-hidden card-overlay-image">
+		<div class="card-body">
+			<div class="d-flex align-items-center justify-content-between">
+				<div class="iq-cart-image">
+					<lord-icon src="https://cdn.lordicon.com/elvincae.json" trigger="loop"colors="primary:#e83a30,secondary:#30c9e8" style="width:80px;height:80px"></lord-icon>
+				</div>
+				<div class="iq-cart-text">
+					<h2>Apikey</h2>
+					<input id="key" class="form-control-sm" type="text" value="login dulu ..." readonly="">
+				</div>
+			</div>
+		</div>
+		<div class="overlay-image svg-danger">
+		     <svg height="100%" viewBox="0 0 264 113" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M108.5 68C82.4829 96.2795 31.0226 108.712 4.54413 112H259C262.2 112 263.333 108.667 263.5 107V6C263.5 1.6 259.167 0.166667 257 0H192.5C172.1 3.2 128 46.6667 108.5 68Z" /></svg>
+		</div>
+	</div>
+</div>
+<div class="col-lg-12">
+	<div class="bottom-left shadow-showcase card card-block card-stretch card-height position-relative overflow-hidden card-overlay-image">
+		<div class="card-body">
+			<h2 class="card-title"><i class="las la-map-pin"></i>Thanks To:</h2>
+			<li class="card-text">Marz</li>
+			<li class="card-text">404 Team</li>
+			<li class="card-text">All Creator Lainnya</li>
+		</div>
+		<div class="overlay-image svg-danger">
+		     <svg height="100%" viewBox="0 0 264 113" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M108.5 68C82.4829 96.2795 31.0226 108.712 4.54413 112H259C262.2 112 263.333 108.667 263.5 107V6C263.5 1.6 259.167 0.166667 257 0H192.5C172.1 3.2 128 46.6667 108.5 68Z" /></svg>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(window).on('load', function(){Swal.fire({position: 'top-center',icon: 'info',text: "Selamat Datang Di Rest Api\nFiturnya Masih Sedikit :v",showClass: {popup: 'animate__animated animate__lightSpeedInRight'},hideClass: {popup: 'animate__animated animate__lightSpeedOutLeft'}})})
+	function refreshTime() {var date = new Date();var hours = date.getHours() < 10 ? '0'+date.getHours() : date.getHours();var minutes = date.getMinutes() < 10 ? '0'+date.getMinutes() : date.getMinutes();var seconds = date.getSeconds() < 10 ? '0'+date.getSeconds() : date.getSeconds();var dateString = hours + ':' + minutes + ':' + seconds;document.getElementById('times').innerHTML = dateString;}
+	$("#tod").attr("data-percent", `${parseInt(100/24*new Date().getHours())}`);
+	function fuck(tot) {document.getElementById("aipi").innerHTML = tot.ip};
+	document.getElementById("key").onclick = function() {var copy = document.getElementById("key");copy.select();copy.setSelectionRange(0,999999);document.execCommand("copy");Swal.fire({position: "top-center", icon: "success", title: "Apikey tersalin ke clipboard", timer: 1500, showClass: {popup: 'animate__animated animate__lightSpeedInLeft'},hideClass: {popup: 'animate__animated animate__hinge'}});}
+	setInterval(refreshTime, 1000);
+</script>
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=fuck"></script>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Wrapper End-->
+    
+    <footer class="iq-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-inline mb-0">
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-right">
+                   © 2021 Made With <i class="las la-heart text-danger"></i> By <a href="https://wa.me/6283183586629" target="_blank">Frangky.</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Backend Bundle JavaScript -->
+    <script src="https://storage.frangky.me/public/js/backend-bundle.min.js"></script>
+    <!-- Flextree Javascript-->
+    <script src="https://storage.frangky.me/public/js/flex-tree.min.js"></script>
+    <script src="https://storage.frangky.me/public/js/tree.js"></script>
+    <!-- Table Treeview JavaScript -->
+    <script src="https://storage.frangky.me/public/js/table-treeview.js"></script>
+    <!-- Masonary Gallery Javascript -->
+    <script src="https://storage.frangky.me/public/js/masonry.pkgd.min.js"></script>
+    <script src="https://storage.frangky.me/public/js/imagesloaded.pkgd.min.js"></script>
+    <!-- Mapbox Javascript -->
+    <script src="https://storage.frangky.me/public/js/mapbox-gl.js"></script>
+    <script src="https://storage.frangky.me/public/js/mapbox.js"></script>
+    <!-- Fullcalender Javascript -->
+    <script src="https://storage.frangky.me/public/vendor/fullcalendar/core/main.js"></script>
+    <script src="https://storage.frangky.me/public/vendor/fullcalendar/daygrid/main.js"></script>
+    <script src="https://storage.frangky.me/public/vendor/fullcalendar/timegrid/main.js"></script>
+    <script src="https://storage.frangky.me/public/vendor/fullcalendar/list/main.js"></script>
+    <!-- SweetAlert JavaScript -->
+    <script src="https://storage.frangky.me/public/js/sweetalert.js"></script>
+    <!-- Vectoe Map JavaScript -->
+    <script src="https://storage.frangky.me/public/js/vector-map-custom.js"></script>
+    <!-- Chart Custom JavaScript -->
+    <script src="https://storage.frangky.me/public/js/customizer.js"></script>
+    <!-- Chart Custom JavaScript -->
+    <script src="https://storage.frangky.me/public/js/chart-custom.js"></script>
+    <!-- slider JavaScript -->
+    <script src="https://storage.frangky.me/public/js/slider.js"></script>
+    <!-- app JavaScript -->
+    <script src="https://storage.frangky.me/public/js/app.js"></script>
+    <script>
+    	$(document).ready(function() {
+    		$('li.active').removeClass('active');
+    		$('a[href="' + location.pathname + '"]').closest('li').addClass('active');
+    	});
+    </script>
+    <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+  </body>
+</html>
